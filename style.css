@@ -1,0 +1,17 @@
+body{
+    background-color: #000;
+}
+
+.cursor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    transform: translateX(-50%) translateY(-50%);
+    transition: all 100ms ease-out;
+    border-left: 20px slid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid yellow;
+    z-index: 1;
+}
